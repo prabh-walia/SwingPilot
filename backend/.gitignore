@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Pip / packaging
+pip-log.txt
+pip-delete-this-directory.txt
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Byte-compiled / caches
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Windows & mac
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and runtime files
+*.log
+swingpilot.log
+*.pid
+
+# Database / local storage
+*.sqlite
+*.db
+*.db-journal
+*.sqlite3
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+
+# MT5/terminal data (do not track terminal files)
+MQL5/
+MQL4/
+tester/
+logs/
+
+# PyInstaller / build
+*.spec
+
+# Jupyter
+.ipynb_checkpoints
+
+# Node / front-end (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System files
+*.exe
+*.msi
+*.dll
+
+# Large objects / generated files
+*.zip
+*.tar.gz
+*.whl
